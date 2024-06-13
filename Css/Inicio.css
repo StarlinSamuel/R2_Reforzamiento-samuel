@@ -1,0 +1,95 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.Menu-lateral{
+   height: 100%;
+   width: 190px;
+   background: linear-gradient(#fc5151,#eca30586 );
+   border: dashed rgb(255, 241, 241);
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   overflow-x: hidden;
+   padding-top: 20px;
+}
+
+
+.Menu-lateral a{
+    margin-top: 100px;
+    width: 140px;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f3f3f3;
+    display: block;
+    text-align: justify;
+    transition: all 1s ease;
+}
+
+.Menu-lateral a:hover{
+    font-size: 1.50em;
+    font-weight: 700px;
+    background-color: #2e2b2b6c;
+    width: 300px;
+}
+
+.Menu-lateral i{
+    margin-right: 5px;
+}
+
+h1{
+    color: #f3f3f3;
+    margin-left: 600px;
+    padding: 10px;
+    background: linear-gradient(#fc5151,#eca30586 );
+    box-shadow: 2px 2px 5px rgb(32, 32, 32);
+    border-radius: 10px;
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
+
+.Sobre-mi {
+    margin-top: 5em;
+    margin-left: 28em;
+    background: linear-gradient(#fc5151,#eca30586 );
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 2px 5px rgb(32, 32, 32);
+
+}
+
+.Sobre-mi h2 {
+    color: #f3f3f3;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Sobre-mi p {
+    color: #f3f3f3;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.Sobre-mi img {
+    max-width: 200px;
+    height: auto;
+    transition: all 1s ease;
+}
+
+.Sobre-mi img:hover{
+    border-radius: 10px;
+}
